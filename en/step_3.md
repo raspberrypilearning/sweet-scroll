@@ -1,6 +1,7 @@
 ## Parallax scroll
 
 Now let's add the parallax effect to our web page. 
+
 --- task ---
 + In your 2nd CSS rule-set, add the property ```background-attachment``` and give it the value ```fixed```.
 --- /task ---
