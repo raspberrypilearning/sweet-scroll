@@ -5,11 +5,11 @@ In this project you'll learn to use a cool website scrolling technique called 'p
 --- no-print ---
 Instructions here
 
-<trinket here>
+no print interactive trinket
 --- /no-print ---
 
 --- print-only ---
-<trinket screenshot>
+print screenshot of trinket
 --- /print-only ---
 
 --- collapse ---

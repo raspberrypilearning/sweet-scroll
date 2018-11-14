@@ -14,11 +14,7 @@ Remember that you already have sections of your web page that are using parallax
 --- hint ---
 You can reuse CSS rule-sets for multiple selectors. Add your new sections to the selector list of the rule-set contating ```background-attachment: fixed;```
 Then add a new rule to include a background image.
---- code ---
----
-language: css # required
-highlight_lines: 1,21-23 # optional
----
+```css
 .cd-logo, .kitchen-equipment, .cake-ingredients {
   position: relative;
   background-position: center;
@@ -42,7 +38,7 @@ highlight_lines: 1,21-23 # optional
 .cake-ingredients {
   background-image: url("ingredients.JPG");
 }
---- /code ---
+```
 --- /hint ---
 --- /hints ---
 
