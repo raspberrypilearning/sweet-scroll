@@ -1,11 +1,18 @@
-title: sweet-scroll
+title: Sweet scroll
 hero_image: images/banner.png
-description: sweet-scroll description
+description: Learn to create a recipe page using the parallax scroll technique.
 version: 4
 listed: false
 copyedit: false
+ingredient: false
 last_tested: "2018-10-17"
 steps:
   - title: Introduction
-  - title: What you will need
-  - title: Step title
+  - title: Getting started
+  - title: Parallax scroll
+  - title: Add captions
+  - title: "Challenge: more sections"
+    challenge: true
+  - title: Handle mobile and tablet screens
+  - title: "Challenge: create a cookbook"
+    challenge: true

@@ -1,25 +1,45 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project you'll learn to use a cool website scrolling technique called 'parallax scroll' to create a webpage for a cake recipe.
 
-### What you will make
+--- no-print ---
+Instructions here
 
-Add something here to showcase here, for example:
+<trinket here>
+--- /no-print ---
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+--- print-only ---
+<trinket screenshot>
+--- /print-only ---
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+--- collapse ---
+---
+title: What you will learn
+---
++ Learning...
++ outcomes ...
 
-### What you will learn
+--- /collapse ---
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+--- collapse ---
+---
+title: What you will need
+---
+### Hardware
++ Computer capable of running a modern web browser
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level){:target="_blank"}
+### Software
++ This project can be completed in a web browser using trinket.io
 
-### Additional information for educators
+--- /collapse ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+--- collapse ---
+---
+title: Additional notes for educators
+---
+--- no-print ---
+If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/catch-the-dots/print).
+--- /no-print ---
 
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+[Here is a link to the resources for this project](link_here){:target="_blank"}.
+--- /collapse ---
