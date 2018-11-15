@@ -2,7 +2,7 @@
 
 --- challenge ---
 
-Add more sections to your recipe using parralax scrolling.
+Add more sections to your recipe using parallax scrolling.
 
 --- hints ---
 --- hint ---

@@ -20,7 +20,7 @@ Here is my HTML code for including a caption to the first div ```cd-logo```.
 Next you must add some CSS to style your new elements.
 
 --- task ---
-+ Add a rule-set for the new div element ```caption```.
+Add a rule-set for the new div element ```caption```.
 ```css
 .caption {
   position: absolute;
@@ -32,7 +32,7 @@ Next you must add some CSS to style your new elements.
 --- /task ---
 
 ---task ---
-+ Add a rule-set for the new span element ```border```.
+Add a rule-set for the new span element ```border```.
 ```css
 .border {
   background-color: #41BAC1;
