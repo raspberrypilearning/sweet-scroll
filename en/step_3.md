@@ -31,4 +31,4 @@ Here is how your second rule-set might look after this step.
 }
 ```
 
-image of the project at this point.
+![Image of project after current step](images/AfterStep3.png)

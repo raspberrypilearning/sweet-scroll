@@ -9,7 +9,7 @@ Open the starter project.
 title: I'm using Trinket online
 ---
 
-Open the Sweet scroll starter trinket at [http://dojo.soy/SweetScrollStart](http://dojo.soy/SweetScrollStart)
+Open the Sweet scroll starter trinket at [dojo.soy/SweetScrollStart](http://dojo.soy/SweetScrollStart)
 
 --- /collapse ---
 
@@ -69,5 +69,4 @@ I'm going to include a list of the equipment I need when I'm baking a cake.
 
 --- /task ---
 
-image of trinket at this step.
 ![Image of project after current step](images/AfterStep2.png)
