@@ -15,7 +15,7 @@ The ```@media``` rule is used to apply different styles to your web page dependi
 
 It's a great way to create tailored stylesheets for screens of all sizes.
 
-For more information on what you can do with the @media rule, see dojo.soy link.
+For more information on what you can do with the @media rule, see [dojo.soy/css_media_rule](http://dojo.soy/css_media_rule)
 
 --- /collapse ---
 
