@@ -9,7 +9,7 @@ Open the starter project.
 title: I'm using Trinket online
 ---
 
-Open the Sweet scroll starter trinket at dojo.soy link
+Open the Sweet scroll starter trinket at [http://dojo.soy/SweetScrollStart](http://dojo.soy/SweetScrollStart)
 
 --- /collapse ---
 
@@ -18,7 +18,7 @@ Open the Sweet scroll starter trinket at dojo.soy link
 title: I'm using an offline editor
 ---
 
-Download the Sweet scroll starter files from dojo.soy link and open them in your editor. For help writing HTML and CSS offline visit: https://codeclubprojects.org/en-GB/resources/webdev-working-offline/
+Download the Sweet scroll starter files from dojo.soy link and open them in your editor. For help writing HTML and CSS offline visit: [https://codeclubprojects.org/en-GB/resources/webdev-working-offline/](https://codeclubprojects.org/en-GB/resources/webdev-working-offline/)
 
 --- /collapse ---
 
@@ -70,3 +70,4 @@ I'm going to include a list of the equipment I need when I'm baking a cake.
 --- /task ---
 
 image of trinket at this step.
+![Image of project after current step](images/AfterStep2.png)
