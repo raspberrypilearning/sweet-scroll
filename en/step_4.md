@@ -43,3 +43,5 @@ Add a rule-set for the new span element ```border```.
 }
 ```
 --- /task ---
+
+![Image of project after current step](images/AfterStep4.png)
