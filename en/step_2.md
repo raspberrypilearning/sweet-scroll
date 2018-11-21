@@ -9,7 +9,7 @@ Open the starter project.
 title: I'm using Trinket online
 ---
 
-Open the Sweet scroll starter trinket at [dojo.soy/SweetScrollStart](http://dojo.soy/SweetScrollStart)
+Open the Sweet scroll starter trinket at [dojo.soy/SweetScrollStart](http://dojo.soy/SweetScrollStart){:target="_blank"}
 
 --- /collapse ---
 
@@ -18,18 +18,23 @@ Open the Sweet scroll starter trinket at [dojo.soy/SweetScrollStart](http://dojo
 title: I'm using an offline editor
 ---
 
-Download the Sweet scroll starter files from dojo.soy link and open them in your editor. For help writing HTML and CSS offline visit: [https://codeclubprojects.org/en-GB/resources/webdev-working-offline/](https://codeclubprojects.org/en-GB/resources/webdev-working-offline/)
+Download the Sweet scroll starter files from dojo.soy link and open them in your editor. For help writing HTML and CSS offline visit: [https://codeclubprojects.org/en-GB/resources/webdev-working-offline/](https://codeclubprojects.org/en-GB/resources/webdev-working-offline/){:target="_blank"}
 
 --- /collapse ---
 
 --- /task ---
 
- You should see some pieces of content in div elements, in the HTML file. The empty divs are assigned background images in the CSS file using the property ```background-image```.
+In the `index.html` file you will see some pieces of content in div elements. 
+
+The empty divs are assigned background images in the CSS file using the property ```background-image```.
 
 --- task ---
 
 Let's add another div with an image of some kitchen equipment.
+
 Add a ```div``` element to the bottom of your page (keep it inside the ```<html>``` tags) and use a helpful class name, e.g., ```.kitchen-equipment```.
+
+
 
 --- /task ---
 
