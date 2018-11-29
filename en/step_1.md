@@ -27,10 +27,7 @@ title: What you will learn
 title: What you will need
 ---
 ### Hardware
-+ Computer capable of running a modern web browser
-
-### Software
-+ This project can be completed in a web browser using trinket.io
++ A computer connected to the internet
 
 --- /collapse ---
 

@@ -4,37 +4,31 @@
 
 Open the starter project.
 
---- collapse ---
----
-title: I'm using Trinket online
----
++ I'm using Trinket online
 
 Open the Sweet scroll starter trinket at [dojo.soy/SweetScrollStart](http://dojo.soy/SweetScrollStart){:target="_blank"}
 
---- /collapse ---
-
---- collapse ---
----
-title: I'm using an offline editor
----
++ I'm using an offline editor
 
 Download the Sweet scroll starter files from dojo.soy link and open them in your editor. For help writing HTML and CSS offline visit: [https://codeclubprojects.org/en-GB/resources/webdev-working-offline/](https://codeclubprojects.org/en-GB/resources/webdev-working-offline/){:target="_blank"}
-
---- /collapse ---
 
 --- /task ---
 
 In the `index.html` file you will see some pieces of content in div elements. 
 
-The empty divs are assigned background images in the CSS file using the property ```background-image```.
+The CoderDojo logo is displayed using an empty div with the CSS property ```background-image```.
 
 --- task ---
 
 Let's add another div with an image of some kitchen equipment.
 
-Add a ```div``` element to the bottom of your page (keep it inside the ```<html>``` tags) and use a helpful class name, e.g., ```.kitchen-equipment```.
+Add a ```div``` element to the bottom of your page (keep it inside the ```<html>``` tags) and use a helpful class name, e.g., ```kitchen-equipment```.
 
+```html
+  <div class="kitchen-equipment">
 
+  </div>
+  ```
 
 --- /task ---
 
@@ -43,7 +37,7 @@ Add a ```div``` element to the bottom of your page (keep it inside the ```<html>
 + Now, in the ```style.css``` file, add a new CSS rule-set for your div that includes the link to the image you would like to display.
 ```css
   .kitchen-equipment {
-    background-image: url("equipment-picture.JPG";
+    background-image: url("utensils.JPG");
   }
 ```
 --- /task ---
@@ -62,15 +56,66 @@ Add a ```div``` element to the bottom of your page (keep it inside the ```<html>
 }
 ```
 
+You should now be able to see the new image if you scroll through your web page
 --- /task ---
 
 --- task ---
 
 Add more divs with pictures or text. 
 
-hints?
+I'm going to include a list of the equipment I need when I'm baking a cake and a picture of the ingredients I will need.
 
-I'm going to include a list of the equipment I need when I'm baking a cake.
+--- hints ---
+--- hint ---
+To add a section with text, include any html you want inside a div. Then add the appropriate CSS. `<p>` and `<h3>` tags were used for the simple chocolate cake section. This time I will use `<ul>` and `<li>` tags. I am using the class name `textSection` to keep the same CSS rules as the simple chocolate cake section.
+
+```html
+<div class="textSection">
+    <h3>EQUIPMENT</h3>
+    <ul>
+     <li>Cake tin or muffin tray</li>
+     <li>Large mixing bowl</li>
+     <li>Electic mixer</li>
+     <li>Cooling rack</li>
+     <li>Fork</li>
+     <li>Weighing scales</li>
+     <li>Smaller bowls, to hold ingredients</li>
+    </ul>
+  </div>
+```
+--- /hint ---
+--- hint ---
+To add a section with an image, create a div element and give it an id. Then use the CSS property `background-image` to give it an image.
+
+```html
+  <div class="cake-ingredients">
+
+  </div>
+  ```
+--- /hint ---
+--- hint ---
+Here is the CSS code to assign a background image to your new div.
+
+```css
+  .cake-ingredients {
+    background-image: url("ingredients.jpg");
+  }
+```
+
+Remember to add your new div id to the list of selectors for the following rule.
+
+```css
+  .cd-logo, .kitchen-equipment, .cake-ingredients {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  min-height: 100%;
+}
+```
+--- /hint ---
+--- /hints ---
 
 --- /task ---
 
