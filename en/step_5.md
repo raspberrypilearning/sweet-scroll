@@ -12,7 +12,7 @@ If you're stuck for ideas, include steps like ingredients, preperation or cookin
 Remember that you already have sections of your web page that are using parallax scrolling. How many new CSS rule-sets do you need?
 --- /hint ---
 --- hint ---
-You can reuse CSS rule-sets for multiple selectors. Add your new sections to the selector list of the rule-set contating ```background-attachment: fixed;```
+You can reuse CSS rule-sets for multiple selectors. Add your new sections to the selector list of the rule-set containing ```background-attachment: fixed;```
 Then add a new rule-set to include a background image.
 ```css
 .cd-logo, .kitchen-equipment, .cake-ingredients {

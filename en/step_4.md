@@ -2,8 +2,10 @@
 
 Next let's add some caption boxes, to include a heading on your images.
 
+![Image of project after current step](images/AfterStep4.png)
+
 --- task ---
-+ First you will need to add a div inside the div with the background picture that you want to put a caption on. 
++ First you'll need to add a div inside the ```cd-logo```div. Give it the ```caption``` class name.
 + Then you should also add a ```span``` element around the text you want in your heading.
 Here is my HTML code for including a caption to the first div ```cd-logo```.
 
@@ -14,6 +16,10 @@ Here is my HTML code for including a caption to the first div ```cd-logo```.
     </div>
   </div>
 ```
+
+You should see the Text without any styling.
+
+![Image of caption without styling](images/CaptionNoStyle.png)
 
 --- /task ---
 
@@ -44,4 +50,3 @@ Add a rule-set for the new span element ```border```.
 ```
 --- /task ---
 
-![Image of project after current step](images/AfterStep4.png)

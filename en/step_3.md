@@ -1,9 +1,24 @@
 ## Parallax scroll
 
-Now let's add the parallax effect to our web page. 
+Now let's add the parallax effect to our web page. Parallax scrolling is when background content moves at a different speed to the foreground content. You can see this effect below.
+
+![gif of the Sweet scroll in action.](images/ParallaxDemo.gif)
 
 --- task ---
-In your 2nd CSS rule-set, add the property ```background-attachment``` and give it the value ```fixed```.
+In the following CSS rule-set, add the property ```background-attachment``` and give it the value ```fixed```.
+
+```css
+.cd-logo, .kitchen-equipment, .cake-ingredients{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  min-height: 100%;
+
+  background-attachment: fixed;
+}
+```
 --- /task ---
 
 --- task ---
@@ -30,5 +45,7 @@ Here is how your second rule-set might look after this step.
   opacity: 0.7;
 }
 ```
+
+Below, you can see the opacity effect at '0.7'
 
 ![Image of project after current step](images/AfterStep3.png)
