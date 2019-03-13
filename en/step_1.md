@@ -17,8 +17,9 @@ Scroll through the web page to see the parallax scroll effect in action.
 ---
 title: What you will learn
 ---
-+ Learning...
-+ outcomes ...
++ How to use CSS classes
++ How to use the `background-image` and `background-attachment: fixed` CSS properties
++ How to use the CSS `@media` rule for responsive web design
 
 --- /collapse ---
 
@@ -39,5 +40,5 @@ title: Additional notes for educators
 If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/sweet-scroll/print).
 --- /no-print ---
 
-[Here is a link to the resources for this project](link_here){:target="_blank"}.
+[Here is a link to the resources for this project](https://github.com/raspberrypilearning/sweet-scroll/tree/draft/en/resources){:target="_blank"}.
 --- /collapse ---

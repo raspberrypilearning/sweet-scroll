@@ -10,7 +10,7 @@ Open the Sweet scroll starter trinket at [dojo.soy/SweetScrollStart](http://dojo
 
 + I'm using an offline editor
 
-Download the Sweet scroll starter files from dojo.soy link and open them in your editor. For help writing HTML and CSS offline visit: [https://codeclubprojects.org/en-GB/resources/webdev-working-offline/](https://codeclubprojects.org/en-GB/resources/webdev-working-offline/){:target="_blank"}
+Download the Sweet scroll starter files from the dojo.soy link above and open them in your editor. For help writing HTML and CSS offline visit: [https://codeclubprojects.org/en-GB/resources/webdev-working-offline/](https://codeclubprojects.org/en-GB/resources/webdev-working-offline/){:target="_blank"}
 
 --- /task ---
 
@@ -34,7 +34,7 @@ Add a ```div``` element to the bottom of your page (keep it inside the ```<html>
 
 --- task ---
 
-+ Now, in the ```style.css``` file, add a new CSS rule-set for your div that includes the link to the image you would like to display.
++ Now, in the ```style.css``` file, add a new CSS rule-set for your class name that includes the link to the image you would like to display.
 ```css
   .kitchen-equipment {
     background-image: url("utensils.JPG");
