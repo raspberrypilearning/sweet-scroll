@@ -1,4 +1,4 @@
-## Handle mobile and tablet screens
+## Handling mobile and tablet screens
 
 Nowadays, a lot of people browse websites on their phones or tablets. It is important to make sure that your webpages look great on all types of device. The CSS ```@media``` rule is a great way to create responsive web designs.
 
