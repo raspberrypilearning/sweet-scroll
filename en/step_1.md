@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project you'll learn to use a cool website scrolling technique called 'parallax scroll' to create a webpage for a cake recipe.
+In this project, you'll learn to use a cool website scrolling technique called 'parallax scroll' to create a webpage for a cake recipe.
 
 --- no-print ---
 Scroll through the web page to see the parallax scroll effect in action.
