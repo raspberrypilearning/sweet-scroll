@@ -1,6 +1,6 @@
 ## Handle mobile and tablet screens
 
-A lot of people browse websites on their phones or tablets today. It is important to make sure that your web pages look great on all types of devices. The CSS ```@media``` rule is a great way to create responsive web designs.
+Nowadays, a lot of people browse websites on their phones or tablets. It is important to make sure that your webpages look great on all types of device. The CSS ```@media``` rule is a great way to create responsive web designs.
 
 --- task ---
 
@@ -22,14 +22,14 @@ In this project, some mobile devices have a problem using ```background-attachme
 title: More about the CSS @media Rule
 ---
 
-The ```@media``` rule is used to apply different styles to your web page depending on the type of device being used and its settings. It can be used to check:
+The ```@media``` rule is used to apply different styles to your webpage depending on the type of device being used and its settings. It can be used to check:
 + the width and height of the viewport
 + the width and height of the device
-+ if the device is in landscape or portrait mode
++ the orientation of the device (whether it is in landscape or portrait mode)
 + the screen resolution
 
-It's a great way to create tailored stylesheets for screens of all sizes.
+It's a great way to create tailored style sheets for screens of all sizes.
 
-For more information on what you can do with the @media rule, see [dojo.soy/css_media_rule](http://dojo.soy/css_media_rule)
+For more information on what you can do with the @media rule, see [dojo.soy/css_media_rule](http://dojo.soy/css_media_rule).
 
 --- /collapse ---
