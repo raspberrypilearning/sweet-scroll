@@ -31,7 +31,7 @@ You can also add the ```opacity``` property if you would like to change the tran
 
 If your last section is too short and some of the picture is still showing when you scroll all the way to the bottom of the page, add a rule-set to make that section's ```min-height``` 100%.
 
-Here is how your second rule-set might look after this step.
+Here is how your second rule-set might look after this step:
 ```css
   .cd-logo, .kitchen-equipment {
   position: relative;
