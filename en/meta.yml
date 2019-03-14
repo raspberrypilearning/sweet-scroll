@@ -11,8 +11,8 @@ steps:
   - title: Getting started
   - title: Parallax scroll
   - title: Add captions
-  - title: "Challenge: More sections"
+  - title: "Challenge: more sections"
     challenge: true
   - title: Handling mobile and tablet screens
-  - title: "Challenge: Create a cookbook"
+  - title: "Challenge: create a cookbook"
     challenge: true
