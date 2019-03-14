@@ -10,11 +10,11 @@ Open the Sweet scroll starter trinket at [dojo.soy/SweetScrollStart](http://dojo
 
 + I'm using an offline editor
 
-Download the Sweet scroll starter files from the dojo.soy link above and open them in your editor. For help writing HTML and CSS offline visit: [https://codeclubprojects.org/en-GB/resources/webdev-working-offline/](https://codeclubprojects.org/en-GB/resources/webdev-working-offline/){:target="_blank"}
+Download the Sweet scroll starter files from the dojo.soy link above and open them in your editor. For help writing HTML and CSS offline, visit: [https://codeclubprojects.org/en-GB/resources/webdev-working-offline/](https://codeclubprojects.org/en-GB/resources/webdev-working-offline/){:target="_blank"}
 
 --- /task ---
 
-In the `index.html` file you will see some pieces of content in div elements. 
+In the `index.html` file, you will see some pieces of content in div elements. 
 
 The CoderDojo logo is displayed using an empty div with the CSS property ```background-image```.
 
@@ -44,7 +44,7 @@ Add a ```div``` element to the bottom of your page (keep it inside the ```<html>
 
 --- task ---
 
-+ Finally add your class name to the list of selectors for the second rule-set in your CSS file. This will apply all these property and value pairs to your new background image.
++ Finally, add your class name to the list of selectors for the second rule-set in your CSS file. This will apply all these property and value pairs to your new background image.
 ```css
   .cd-logo, .kitchen-equipment {
   position: relative;
@@ -56,7 +56,7 @@ Add a ```div``` element to the bottom of your page (keep it inside the ```<html>
 }
 ```
 
-You should now be able to see the new image if you scroll through your web page
+You should now be able to see the new image if you scroll through your webpage.
 --- /task ---
 
 --- task ---
@@ -67,7 +67,7 @@ I'm going to include a list of the equipment I need when I'm baking a cake and a
 
 --- hints ---
 --- hint ---
-To add a section with text, include any html you want inside a div. Then add the appropriate CSS. `<p>` and `<h3>` tags were used for the simple chocolate cake section. This time I will use `<ul>` and `<li>` tags. I am using the class name `textSection` to keep the same CSS rules as the simple chocolate cake section.
+To add a section with text, include any html you want inside a div. Then add the appropriate CSS. `<p>` and `<h3>` tags were used for the simple chocolate cake section. This time, I will use `<ul>` and `<li>` tags. I am using the class name `textSection` to keep the same CSS rules as the simple chocolate cake section.
 
 ```html
 <div class="textSection">
@@ -75,7 +75,7 @@ To add a section with text, include any html you want inside a div. Then add the
     <ul>
      <li>Cake tin or muffin tray</li>
      <li>Large mixing bowl</li>
-     <li>Electic mixer</li>
+     <li>Electric mixer</li>
      <li>Cooling rack</li>
      <li>Fork</li>
      <li>Weighing scales</li>
