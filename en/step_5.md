@@ -1,4 +1,4 @@
-## Challenge: More sections
+## Challenge: more sections
 
 --- challenge ---
 
