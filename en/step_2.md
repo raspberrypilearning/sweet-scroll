@@ -14,13 +14,13 @@ Download the Sweet scroll starter files from the dojo.soy link above and open th
 
 --- /task ---
 
-In the `index.html` file, you will see some pieces of content in div elements. 
+In the `index.html` file, you will see some pieces of content in `div` elements. 
 
-The CoderDojo logo is displayed using an empty div with the CSS property ```background-image```.
+The CoderDojo logo is displayed using an empty `div` with the CSS property ```background-image```.
 
 --- task ---
 
-Let's add another div with an image of some kitchen equipment.
+Let's add another `div` with an image of some kitchen equipment.
 
 Add a ```div``` element to the bottom of your page (keep it inside the ```<html>``` tags) and use a helpful class name, e.g., ```kitchen-equipment```.
 
@@ -63,11 +63,11 @@ You should now be able to see the new image if you scroll through your webpage.
 
 Add more divs with pictures or text. 
 
-I'm going to include a list of the equipment I need when I'm baking a cake and a picture of the ingredients I will need.
+In the below example, we're going to include a list of the equipment we need to bake a cake, and a picture of the ingredients.
 
 --- hints ---
 --- hint ---
-To add a section with text, include any html you want inside a div. Then add the appropriate CSS. `<p>` and `<h3>` tags were used for the simple chocolate cake section. This time, I will use `<ul>` and `<li>` tags. I am using the class name `textSection` to keep the same CSS rules as the simple chocolate cake section.
+To add a section with text, include any html you want inside a `div`. Then, add the appropriate CSS. `<p>` and `<h3>` tags were used for the simple chocolate cake section. This time, we will use `<ul>` and `<li>` tags. You can use the class name `textSection` to keep the same CSS rules as the simple chocolate cake section.
 
 ```html
 <div class="textSection">
@@ -85,7 +85,7 @@ To add a section with text, include any html you want inside a div. Then add the
 ```
 --- /hint ---
 --- hint ---
-To add a section with an image, create a div element and give it an id. Then use the CSS property `background-image` to give it an image.
+To add a section with an image, create a `div` element and give it an id. Then use the CSS property `background-image` to give it an image.
 
 ```html
   <div class="cake-ingredients">
@@ -94,7 +94,7 @@ To add a section with an image, create a div element and give it an id. Then use
   ```
 --- /hint ---
 --- hint ---
-Here is the CSS code to assign a background image to your new div.
+Here is the CSS code to assign a background image to your new `div`:
 
 ```css
   .cake-ingredients {
