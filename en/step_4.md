@@ -7,7 +7,7 @@ Next, let's add some caption boxes, to include a heading on your images.
 --- task ---
 + First, you'll need to add a div inside the ```cd-logo``` div. Give it the ```caption``` class name.
 + Then, you should add a ```span``` element around the text you want in your heading.
-Here is my HTML code for including a caption to the first div, ```cd-logo```:
+Here is an HTML code for including a caption to the first div, ```cd-logo```:
 
 ```html
   <div class="cd-logo">
