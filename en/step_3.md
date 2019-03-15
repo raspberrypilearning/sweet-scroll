@@ -1,6 +1,6 @@
 ## Parallax scroll
 
-Now let's add the parallax effect to our web page. Parallax scrolling is when background content moves at a different speed to the foreground content. You can see this effect below.
+Now let's add the parallax effect to our webpage. Parallax scrolling is when background content moves at a different speed to the foreground content. You can see this effect below.
 
 ![gif of the Sweet scroll in action.](images/ParallaxDemo.gif)
 
