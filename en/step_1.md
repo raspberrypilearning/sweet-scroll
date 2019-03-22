@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you'll learn to use a cool website scrolling technique called 'parallax scroll' to create a webpage for a cake recipe.
+In this project, you will learn to use a cool website scrolling technique called 'parallax scroll' to create a webpage for a cake recipe.
 
 --- no-print ---
 Scroll through the webpage to see the parallax scroll effect in action.
@@ -37,7 +37,7 @@ title: What you will need
 title: Additional notes for educators
 ---
 --- no-print ---
-If you need to print this project, please use the [printer friendly version](https://projects.raspberrypi.org/en/projects/sweet-scroll/print).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sweet-scroll/print).
 --- /no-print ---
 
 [Here is a link to the resources for this project](https://github.com/raspberrypilearning/sweet-scroll/tree/draft/en/resources){:target="_blank"}.
