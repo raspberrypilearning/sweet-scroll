@@ -20,7 +20,7 @@ The CoderDojo logo is displayed using an empty `div` with the CSS property ```ba
 
 --- task ---
 
-Let's add another `div` with an image of some kitchen equipment.
+You will now add another `div` with an image of some kitchen equipment.
 
 Add a ```div``` element to the bottom of your page (keep it inside the ```<html>``` tags) and use a helpful class name, e.g., ```kitchen-equipment```.
 
@@ -63,7 +63,7 @@ You should now be able to see the new image if you scroll through your webpage.
 
 Add more divs with pictures or text. 
 
-In the below example, we're going to include a list of the equipment we need to bake a cake, and a picture of the ingredients.
+In the below example, you will add a list of the equipment we need to bake a cake, and a picture of the ingredients.
 
 --- hints ---
 --- hint ---
