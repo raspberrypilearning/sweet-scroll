@@ -22,7 +22,7 @@ The CoderDojo logo is displayed using an empty `div` with the CSS property ```ba
 
 You will now add another `div` with an image of some kitchen equipment.
 
-Add a ```div``` element to the bottom of your page (keep it inside the ```<html>``` tags) and use a helpful class name, e.g., ```kitchen-equipment```.
+Add a ```div``` element to the bottom of your page (keep it inside the ```<html>``` tags) and use a helpful class name, e.g. ```kitchen-equipment```.
 
 ```html
   <div class="kitchen-equipment">
