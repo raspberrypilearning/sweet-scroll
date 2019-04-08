@@ -1,10 +1,10 @@
-## How to handle mobile and tablet screens
+## Make your web page look great on mobile devices
 
-Nowadays, a lot of people browse websites on their phones or tablets. It is important to make sure that your webpages look great on all types of device. The CSS ```@media``` rule is a great way to create responsive web designs.
+A lot of people browse websites on their phones or tablets and not just on their computers. Therefore, is important to make sure that your web pages look great on the screens of all types of devices. The CSS ```@media``` rule helps you create web page designs that are **responsive** to the type of device the page is viewed on.
 
 --- task ---
 
-In this project, some mobile devices have a problem using ```background-attachment: fixed```. Add the following to the end of your CSS file to turn off the parallax effect for mobile devices.
+Some mobile devices have a problem with the parallax effect created by the CSS rule `background-attachment: fixed`. Add the following code to the end of your CSS file to turn off the parallax effect for mobile devices.
 
 ```css
 /* Turn off parallax scrolling for tablets and phones as it is not supported */
@@ -19,17 +19,19 @@ In this project, some mobile devices have a problem using ```background-attachme
 
 --- collapse ---
 ---
-title: More about the CSS @media Rule
+title: More about the @media CSS rule
 ---
 
-The ```@media``` rule is used to apply different styles to your webpage depending on the type of device being used and its settings. It can be used to check:
-+ the width and height of the viewport
-+ the width and height of the device
-+ the orientation of the device (whether it is in landscape or portrait mode)
-+ the screen resolution
+The `@media` rule lets you apply different styles to your web page depending on the type of device and the device's settings.
 
-It's a great way to create tailored style sheets for screens of all sizes.
+With the `@media` rule, you can check:
++ The width and height of the viewport
++ The width and height of the device
++ The orientation of the device (whether it is in landscape or portrait mode)
++ The screen resolution
 
-For more information on what you can do with the @media rule, see [dojo.soy/css_media_rule](http://dojo.soy/css_media_rule).
+`@media` is a great tool for creating tailored style sheets for screens of all sizes.
+
+For more information on what you can do with the `@media` rule, see [dojo.soy/css_media_rule](http://dojo.soy/css_media_rule).
 
 --- /collapse ---

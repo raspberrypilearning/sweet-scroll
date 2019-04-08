@@ -1,4 +1,4 @@
-## Challenge: more sections
+## Challenge: add more sections
 
 --- challenge ---
 
@@ -6,14 +6,15 @@ Add more sections to your recipe using parallax scrolling.
 
 --- hints ---
 --- hint ---
-If you're stuck for ideas, include steps like ingredients, preparation, or cooking instructions.
+Some ideas for what you could add are sections on ingredients, preparation, or cooking instructions.
 --- /hint ---
 --- hint ---
-Remember that you already have sections of your webpage that are using parallax scrolling, so think about how many new CSS rule-sets you need.
+Remember that you already have sections on your web page that are using parallax scrolling, so think about how many new CSS rule-sets you need.
 --- /hint ---
 --- hint ---
-You can reuse CSS rule-sets for multiple selectors. Add your new sections to the selector list of the rule-set containing ```background-attachment: fixed;```
-Then, add a new rule-set to include a background image.
+You can re-use CSS rule-sets for multiple selectors. Add your new sections to the selector list of the rule-set containing `background-attachment: fixed;`.
+
+Then, add new rule-sets to include a background image in your new sections.
 ```css
 .cd-logo, .kitchen-equipment, .cake-ingredients {
   position: relative;

@@ -1,11 +1,14 @@
-## Parallax scroll
+## Add parallax scroll
 
-Now let's add the parallax effect to our webpage. Parallax scrolling is when background content moves at a different speed to the foreground content. You can see this effect below.
+Parallax scrolling is when background content on a web page moves at a different speed to the foreground content. You can see this effect below.
 
 ![gif of the Sweet scroll in action.](images/ParallaxDemo.gif)
 
+It's time to add the parallax effect to your web page! 
+
 --- task ---
-In the following CSS rule-set, add the property ```background-attachment``` and give it the value ```fixed```.
+
+In the following CSS rule-set, add the property `background-attachment` and give it the value `fixed`.
 
 ```css
 .cd-logo, .kitchen-equipment, .cake-ingredients{
@@ -22,16 +25,21 @@ In the following CSS rule-set, add the property ```background-attachment``` and 
 --- /task ---
 
 --- task ---
-Change the ```min-height``` property if you want to adjust the size of the gap between text sections. Experiment with different sizes and choose a value between `0%` and `100%` that you like.
+If you want to adjust the size of the gap between text sections, change the `min-height` property. Experiment with different sizes and choose a value between `0%` and `100%` .
 --- /task ---
 
 --- task ---
-You can also add the ```opacity``` property if you would like to change the transparency of the divs. Again, try some values between `0.1` and `1`.
+If you want to make the `div` elements slightly see-through, add the `opacity` property to the CSS rule-set. Try some values between `0.1` and `1`.
+
+The image below shows the effect of setting the `opacity` property to `0.7`.
+
+![Image of project after current step](images/AfterStep3.png)
+
 --- /task ---
 
-If your last section is too short and some of the picture is still showing when you scroll all the way to the bottom of the page, add a rule-set to make that section's ```min-height``` 100%.
+If your last section on your web page is too short, so that some of the picture shows when you scroll all the way to the bottom of the page, then add a new rule-set to set that section's ```min-height```  to `100%`.
 
-Here is how your second rule-set might look after this step:
+Here is how your new rule-set might look:
 ```css
   .cd-logo, .kitchen-equipment {
   position: relative;
@@ -45,7 +53,3 @@ Here is how your second rule-set might look after this step:
   opacity: 0.7;
 }
 ```
-
-Below, you can see the opacity effect at '0.7'
-
-![Image of project after current step](images/AfterStep3.png)

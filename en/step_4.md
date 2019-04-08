@@ -1,13 +1,15 @@
 ## Add captions
 
-Next, let's add some caption boxes, to include a heading on your images.
+Next, include image headings by adding some caption boxes.
 
 ![Image of project after current step](images/AfterStep4.png)
 
 --- task ---
-+ First, you'll need to add a div inside the ```cd-logo``` div. Give it the ```caption``` class name.
-+ Then, you should add a ```span``` element around the text you want in your heading.
-Here is an HTML code for including a caption to the first div, ```cd-logo```:
++ First, add a `div` element **inside** the `cd-logo` div. Give the new `div` the class name `caption`.
+
++ Then add a `span` tag around the text you want as your heading.
+
+This HTML code adds a heading in the `div` with the class name `cd-logo`:
 
 ```html
   <div class="cd-logo">
@@ -17,16 +19,16 @@ Here is an HTML code for including a caption to the first div, ```cd-logo```:
   </div>
 ```
 
-You should see the Text without any styling.
+You should see the heading text without any styling.
 
 ![Image of caption without styling](images/CaptionNoStyle.png)
 
 --- /task ---
 
-Next, add some CSS to style your new elements.
+Next, add some CSS rules to style your new elements.
 
 --- task ---
-Add a rule-set for the new div element ```caption```.
+Add a rule-set for the new `div` element called `caption`.
 ```css
 .caption {
   position: absolute;
@@ -38,7 +40,7 @@ Add a rule-set for the new div element ```caption```.
 --- /task ---
 
 ---task ---
-Add a rule-set for the new span element ```border```.
+Add a rule-set for the new `span` element called `border`.
 ```css
 .border {
   background-color: #41BAC1;
