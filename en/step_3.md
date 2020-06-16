@@ -22,13 +22,17 @@ In the following CSS rule-set, add the property `background-attachment` and give
   background-attachment: fixed;
 }
 ```
+
 --- /task ---
 
 --- task ---
-If you want to adjust the size of the gap between text sections, change the `min-height` property. Experiment with different sizes and choose a value between `0%` and `100%` .
+
+If you want to adjust the size of the gap between text sections, change the `min-height` property. Experiment with different sizes and choose a value between `0%` and `100%`.
+
 --- /task ---
 
 --- task ---
+
 If you want to make the `div` elements slightly see-through, add the `opacity` property to the CSS rule-set. Try some values between `0.1` and `1`.
 
 The image below shows the effect of setting the `opacity` property to `0.7`.
@@ -40,6 +44,7 @@ The image below shows the effect of setting the `opacity` property to `0.7`.
 If your last section on your web page is too short, so that some of the picture shows when you scroll all the way to the bottom of the page, then add a new rule-set to set that section's ```min-height```  to `100%`.
 
 Here is how your new rule-set might look:
+
 ```css
   .cd-logo, .kitchen-equipment {
   position: relative;

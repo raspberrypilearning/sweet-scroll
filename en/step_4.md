@@ -5,6 +5,7 @@ Next, include image headings by adding some caption boxes.
 ![Image of project after current step](images/AfterStep4.png)
 
 --- task ---
+
 + First, add a `div` element **inside** the `cd-logo` div. Give the new `div` the class name `caption`.
 
 + Then add a `span` tag around the text you want as your heading.
@@ -28,7 +29,9 @@ You should see the heading text without any styling.
 Next, add some CSS rules to style your new elements.
 
 --- task ---
+
 Add a rule-set for the new `div` element called `caption`.
+
 ```css
 .caption {
   position: absolute;
@@ -37,10 +40,13 @@ Add a rule-set for the new `div` element called `caption`.
   text-align: center;
 }
 ```
+
 --- /task ---
 
 ---task ---
+
 Add a rule-set for the new `span` element called `border`.
+
 ```css
 .border {
   background-color: #41BAC1;
@@ -50,5 +56,6 @@ Add a rule-set for the new `span` element called `border`.
   letter-spacing: 10px;
 }
 ```
+
 --- /task ---
 

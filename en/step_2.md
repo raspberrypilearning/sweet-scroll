@@ -40,6 +40,7 @@ Go to the ```style.css``` file, and add a CSS rule-set for your new class, inclu
     background-image: url("utensils.JPG");
   }
 ```
+
 --- /task ---
 
 --- task ---
@@ -58,6 +59,7 @@ Go to the ```style.css``` file, and add a CSS rule-set for your new class, inclu
 Now, all these property and value pairs apply to your new background image.
 
 Scroll through your web page, and you should now see the new image.
+
 --- /task ---
 
 --- task ---
@@ -70,6 +72,7 @@ The example below shows you how to add:
 
 --- hints ---
 --- hint ---
+
 To add a section with text, include any HTML tags you want inside a `div`. Then, add the appropriate CSS rules. The starter project already includes `<p>` and `<h3>` tags in the 'simple chocolate cake' section. The example section below uses `<ul>` and `<li>` tags. Add the class name `textSection` to your new section to apply the same CSS rules that apply to the 'simple chocolate cake' section.
 
 ```html
@@ -86,8 +89,10 @@ To add a section with text, include any HTML tags you want inside a `div`. Then,
     </ul>
   </div>
 ```
+
 --- /hint ---
 --- hint ---
+
 To add a section with an image, create a `div` element and give it a class name. Then use the CSS property `background-image` to add an image to the new`div` element.
 
 ```html
@@ -95,8 +100,10 @@ To add a section with an image, create a `div` element and give it a class name.
 
   </div>
   ```
+
 --- /hint ---
 --- hint ---
+
 Here is the CSS code to assign a background image to your new `div`:
 
 ```css
@@ -117,6 +124,7 @@ Add your new `div` element's class name to the list of selectors for the followi
   min-height: 100%;
 }
 ```
+
 --- /hint ---
 --- /hints ---
 
