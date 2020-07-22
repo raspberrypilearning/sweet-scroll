@@ -1,7 +1,7 @@
 ---
-title: Sweet scroll
+title: स्वीट स्क्रोल (Sweet scroll)
 hero_image: images/banner.png
-description: Learn to create a recipe web page using the parallax scroll technique!
+description: Parallax Scroll(लंबन स्क्रॉल) तकनीक का उपयोग करके एक रेसिपी वेब पृष्ठ(पेज) बनाना सीखें!
 duration: 3
 technologies: html-css-javascript
 software: html-css-javascript
@@ -12,18 +12,18 @@ ingredient: false
 last_tested: "2019-05-03"
 steps:
   - 
-    title: Introduction
+    title: परिचय
   - 
-    title: Get started
+    title: शुरू करें
   - 
-    title: Add parallax scroll
+    title: Parallax scroll(लंबन स्क्रॉल) जोड़ें
   - 
-    title: Add captions
+    title: शीर्षक(Caption) जोड़ें
   - 
-    title: "Challenge: add more sections"
+    title: "चुनौती: अधिक अनुभाग(sections) जोड़ें"
     challenge: true
   - 
-    title: Make your web page look great on mobile devices
+    title: अपने वेब पृष्ठ(पेज) को मोबाइल उपकरणों पर शानदार दिखाए
   - 
-    title: "Challenge: create a cookbook"
+    title: "चुनौती: रसोई की किताब बनाएं"
     challenge: true
