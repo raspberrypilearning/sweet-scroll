@@ -1,10 +1,10 @@
-## Introduction
+## परिचय
 
-In this project, you will learn to use a cool website scrolling technique called 'parallax scroll' to create a web page for a cake recipe.
+इस परियोजना में, आप केक विधि का एक वेब पृष्ठ(पेज) बनाने के लिए 'parallax scroll'('लंबन स्क्रॉल') नामक एक मजेदार वेबसाइट स्क्रॉलिंग तकनीक का उपयोग करना सीखेंगे।
 
 --- no-print ---
 
-Scroll through the web page to see the parallax scroll effect in action. <iframe src="https://trinket.io/embed/html/4b83d6865b?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"> </iframe>
+लंबन स्क्रॉल(Parallax scroll) के प्रभाव को देखने के लिए वेब पृष्ठ(पेज) को स्क्रॉल करें। <iframe src="https://trinket.io/embed/html/4b83d6865b?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"> </iframe>
 
 --- /no-print ---
 
@@ -16,36 +16,36 @@ Scroll through the web page to see the parallax scroll effect in action. <iframe
 
 --- collapse ---
 ---
-title: What you will learn
+title: आप क्या सीखेंगे
 ---
 
-+ How to use CSS classes
-+ How to use the `background-image` and `background-attachment: fixed` CSS properties
-+ How to use the CSS `@media` rule for responsive web design
++ CSS क्लास का उपयोग कैसे करें
++ CSS के गुण(properties) `background-image` और `background-attachment: fixed` का उपयोग कैसे करें
++ उत्तरदायी(responsive) वेब डिज़ाइन के लिए CSS `@media` नियम का उपयोग कैसे करें
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will need
+title: आपको किन चीज़ों की आवश्यकता होगी
 ---
 
-### Hardware
-+ A computer connected to the internet
+### हार्डवेयर
++ एक कंप्यूटर जो इंटरनेट से जुड़ा हुआ है
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional notes for educators
+title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 ---
 
 --- no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/sweet-scroll/print).
+यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल वर्ज़न](https://projects.raspberrypi.org/en/projects/sweet-scroll/print) का उपयोग करें।
 
 --- /no-print ---
 
-[Here is a link to the resources for this project](https://github.com/raspberrypilearning/sweet-scroll/tree/draft/en/resources){:target="_blank"}.
+[ यहां इस परियोजना के लिए संसाधनों की एक शृंखला(link) है ](https://github.com/raspberrypilearning/sweet-scroll/tree/draft/en/resources){:target="_blank"}।
 
 --- /collapse ---
