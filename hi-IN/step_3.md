@@ -1,14 +1,14 @@
-## Add parallax scroll
+## Parallax scroll(लंबन स्क्रॉल) जोड़ें
 
-Parallax scrolling is when background content on a web page moves at a different speed to the foreground content. You can see this effect below.
+लंबन स्क्रॉल(Parallax scrolling) तब होता है जब किसी वेब पृष्ठ(पेज) पर पृष्ठभूमि सामग्री अग्रगामी सामग्री के लिए एक अलग गति से चलती है। आप इस प्रभाव को नीचे देख सकते हैं।
 
 ![gif of the Sweet scroll in action.](images/ParallaxDemo.gif)
 
-It's time to add the parallax effect to your web page!
+अब आपके वेब पृष्ठ(पेज) पर लंबन(parallax) प्रभाव जोड़ने का समय है!
 
 --- task ---
 
-In the following CSS rule-set, add the property `background-attachment` and give it the value `fixed`.
+निम्नलिखित सीएसएस(CSS) नियम-सेट में, `background-attachment` संपत्ति(property) जोड़ें और इसे मूल्य दे `fixed` ।
 
 ```css
 .cd-logo, .kitchen-equipment, .cake-ingredients{
@@ -27,23 +27,23 @@ In the following CSS rule-set, add the property `background-attachment` and give
 
 --- task ---
 
-If you want to adjust the size of the gap between text sections, change the `min-height` property. Experiment with different sizes and choose a value between `0%` and `100%`.
+यदि आप पाठ अनुभागों(text sections) के बीच अंतर के माप को अनुकूलित करना चाहते हैं, तो `min-height` संपत्ति बदलें। विभिन्न आकारों के साथ प्रयोग करें और `0%` से `100%` के बीच एक मान चुनें।
 
 --- /task ---
 
 --- task ---
 
-If you want to make the `div` elements slightly see-through, add the `opacity` property to the CSS rule-set. Try some values between `0.1` and `1`.
+यदि आप `div` तत्वों( elements) को आर पार देखना चाहते हैं, तो CSS नियम-सेट(rule-set) की `opacity` संपत्ति(property) जोड़ें। ` 0.1` और `1` के बीच कुछ मान आज़माएँ ।
 
-The image below shows the effect of setting the `opacity` property to `0.7`.
+नीचे दी गई छवि, `opacity` संपत्ति(property) को `0.7` से स्थापित करने से हो रहे प्रभाव को दिखाती है।
 
 ![Image of project after current step](images/AfterStep3.png)
 
 --- /task ---
 
-If your last section on your web page is too short, so that some of the picture shows when you scroll all the way to the bottom of the page, then add a new rule-set to set that section's `min-height`  to `100%`.
+यदि आपके वेब पृष्ठ(पेज) पर आपका अंतिम भाग बहुत छोटा है, तो जब आप पृष्ठ के निचले भाग में सभी तरह से स्क्रॉल करते हैं, तो कुछ चित्र दिखाता है, तो उस अनुभाग के `min-height` को `100%` निर्धारित करने के लिए एक नया नियम-सेट जोड़ें  ।
 
-Here is how your new rule-set might look:
+यहां बताया गया है कि आपका नया नियम-सेट कैसा दिख सकता है:
 
 ```css
   .cd-logo, .kitchen-equipment {
