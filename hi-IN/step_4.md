@@ -1,16 +1,16 @@
-## Add captions
+## शीर्षक(Caption) जोड़ें
 
-Next, include image headings by adding some caption boxes.
+इसके बाद, कुछ कैप्शन बॉक्स जोड़कर चित्र शीर्षकों को शामिल करें।
 
 ![Image of project after current step](images/AfterStep4.png)
 
 --- task ---
 
-+ First, add a `div` element **inside** the `cd-logo` div. Give the new `div` the class name `caption`.
++ सबसे पहले, `cd-logo` div के **अंदर**एक`div` तत्व(element) जोड़ें। `div` क्लास को का नया नाम `caption` दे।
 
-+ Then add a `span` tag around the text you want as your heading.
++ फिर एक `span` टैग उस पाठ के चारों ओर जोड़ें जिसे आप अपनी हेडिंग के रूप में चाहते हैं।
 
-This HTML code adds a heading in the `div` with the class name `cd-logo`:
+यह HTML कोड `div` में `cd-logo` क्लास नाम के साथ एक हेडिंग जोड़ता है:
 
 ```html
   <div class="cd-logo">
@@ -20,17 +20,17 @@ This HTML code adds a heading in the `div` with the class name `cd-logo`:
   </div>
 ```
 
-You should see the heading text without any styling.
+आपको शीर्ष लेख(heading text) बिना किसी स्टाइल के दिखना चाहिए।
 
 ![Image of caption without styling](images/CaptionNoStyle.png)
 
 --- /task ---
 
-Next, add some CSS rules to style your new elements.
+आगे, अपने नए तत्वों(elements) को स्टाइल करने के लिए कुछ CSS नियम जोड़ें।
 
 --- task ---
 
-Add a rule-set for the new `div` element called `caption`.
+नए `div` तत्व(element) के लिए, नियम-सेट(rule-set) `caption` जोड़ें।
 
 ```css
 .caption {
@@ -45,7 +45,7 @@ Add a rule-set for the new `div` element called `caption`.
 
 ---task ---
 
-Add a rule-set for the new `span` element called `border`.
+नए `span` तत्व(element) के लिए, नियम-सेट(rule-set) `border` जोड़ें।
 
 ```css
 .border {
