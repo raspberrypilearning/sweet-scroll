@@ -1,5 +1,5 @@
-## Challenge: create a cookbook
+## चुनौती: रसोई की किताब बनाएं
 
-Now that you have the skills to create a really cool web page for a cake recipe, create a cookbook website to store all of your favourite recipes in one place! Yum!
+अब जब आपके पास केक विधि के लिए वास्तव में अच्छा वेब पृष्ठ(पेज) बनाने का कौशल है, तो अपने सभी पसंदीदा व्यंजनों को एक स्थान पर संग्रहीत करने के लिए रसोई किताब की एक वेबसाइट बनाएं! स्वादिष्ट!
 
 ![Image of a cartoon cookbook](images/cookbook.png)
