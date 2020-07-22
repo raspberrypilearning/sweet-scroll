@@ -4,7 +4,8 @@
 
 --- no-print ---
 
-लंबन स्क्रॉल(Parallax scroll) के प्रभाव को देखने के लिए वेब पृष्ठ(पेज) को स्क्रॉल करें। <iframe src="https://trinket.io/embed/html/4b83d6865b?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"> </iframe>
+लंबन स्क्रॉल(Parallax scroll) के प्रभाव को देखने के लिए वेब पृष्ठ(पेज) को स्क्रॉल करें। 
+<iframe src="https://trinket.io/embed/html/4b83d6865b?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"> </iframe>
 
 --- /no-print ---
 
