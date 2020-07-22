@@ -1,13 +1,13 @@
-## Make your web page look great on mobile devices
+## अपने वेब पृष्ठ(पेज) को मोबाइल उपकरणों पर शानदार दिखाए
 
-A lot of people browse websites on their phones or tablets and not just on their computers. Therefore, is important to make sure that your web pages look great on the screens of all types of devices. The CSS `@media` rule helps you create web page designs that are **responsive** to the type of device the page is viewed on.
+बहुत से लोग अपने फोन या टैबलेट पर वेबसाइटों को ब्राउज़ करते हैं, न केवल अपने कंप्यूटर पर। इसलिए, यह सुनिश्चित करना जरूरी है कि आपके वेब पृष्ठ(पेज) सभी प्रकार के उपकरणों की स्क्रीन पर बहुत अच्छे लगें। सीएसएस(CSS) `@media` नियम आपको वेब पृष्ठ डिज़ाइन बनाने में मदद करता है जो पृष्ठ देखे जाने वाले उपकरण के प्रकार पर **उत्तरदायी(responsive)** हैं।
 
 --- task ---
 
-Some mobile devices have a problem with the parallax effect created by the CSS rule `background-attachment: fixed`. Add the following code to the end of your CSS file to turn off the parallax effect for mobile devices.
+कुछ मोबाइल उपकरणों में CSS नियम `background-attachment: fixed` द्वारा बनाए गए लंबन(parallax) प्रभाव के साथ एक समस्या है। मोबाइल उपकरणों के लंबन प्रभाव(parallax effect) को बंद करने के लिए अपनी CSS फ़ाइल के अंत में निम्नलिखित कोड जोड़ें।
 
 ```css
-/* Turn off parallax scrolling for tablets and phones as it is not supported */
+/ * टेबलेट और फोन के लिए लंबन स्क्रॉलिंग को बंद करें क्योंकि यह समर्थित नहीं है * /
 @media only screen and (max-device-width: 1024px) {
     .cd-logo, .layer-cake, .kitchen-equipment, .cake-ingredients, .bowl-of-cakemix, .cake-in-oven, .decorated-cake {
         background-attachment: scroll;
@@ -19,19 +19,19 @@ Some mobile devices have a problem with the parallax effect created by the CSS r
 
 --- collapse ---
 ---
-title: More about the @media CSS rule
+title: @media CSS नियम के बारे में अधिक जानकारी
 ---
 
-The `@media` rule lets you apply different styles to your web page depending on the type of device and the device's settings.
+`@media` नियम आपको उपकरण के प्रकार और उपकरण की सेटिंग्स के आधार पर अपने वेब पृष्ठ पर विभिन्न शैलियों को लागू करने देता है।
 
-With the `@media` rule, you can check:
-+ The width and height of the viewport
-+ The width and height of the device
-+ The orientation of the device (whether it is in landscape or portrait mode)
-+ The screen resolution
+`@media` नियम के साथ, आप देख सकते हैं:
++ व्यूपोर्ट(viewport) की चौड़ाई और ऊंचाई
++ उपकरण(device) की चौड़ाई और ऊंचाई
++ उपकरण का अनुस्थापन(orientation) (चाहे वह लैंडस्केप या पोर्ट्रेट मोड में हो)
++ स्क्रीन रिज़ॉल्यूशन
 
-`@media` is a great tool for creating tailored style sheets for screens of all sizes.
+`@media` सभी आकारों की स्क्रीन के लिए स्टाइल शीट(style sheet) बनाने का उत्तम साधन है।
 
-For more information on what you can do with the `@media` rule, see [dojo.soy/css_media_rule](http://dojo.soy/css_media_rule).
+`@media` नियम के साथ आप क्या कर सकते हैं, इसकी अधिक जानकारी के लिए, देखें [dojo.soy/css_media_rule](http://dojo.soy/css_media_rule) ।
 
 --- /collapse ---
