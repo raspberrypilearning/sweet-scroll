@@ -1,28 +1,28 @@
-## Get started
+## शुरू करें
 
 --- task ---
 
-Open the starter project.
+प्रारंभक परियोजना(project) खोलें।
 
-+ I'm using Trinket online
++ मैं ट्रिंकेट(Trinket) ऑनलाइन का उपयोग कर रहा हूं
 
-Open the 'Sweet scroll' starter trinket at [dojo.soy/SweetScrollStart](http://dojo.soy/SweetScrollStart){:target="_blank"}.
+[dojo.soy/SweetScrollStart](http://dojo.soy/SweetScrollStart){:target="_blank"} पर 'स्वीट स्क्रॉल' प्रारंभक ट्रिंकेट ('Sweet scroll' starter trinket) खोलें।
 
-+ I'm using an offline editor
++ मैं एक ऑफ़लाइन संपादक(editor) का उपयोग कर रहा हूँ
 
-Download the 'Sweet scroll' starter files from [dojo.soy/SweetScrollStart](http://dojo.soy/SweetScrollStart) and open them in your editor. If you are unsure how to work offline on your web page, check out [our guide about writing HTML and CSS code offline](https://codeclubprojects.org/en-GB/resources/webdev-working-offline/){:target="_blank"}.
+[dojo.soy/SweetScrollStart](http://dojo.soy/SweetScrollStart) से 'स्वीट स्क्रॉल'(Sweet scroll) स्टार्टर फाइलें डाउनलोड करें और उन्हें अपने एडीटर में खोलें। यदि आप अनिश्चित हैं कि अपने वेब पेज(वेब पृष्ठ) पर ऑफ़लाइन कैसे काम करें, तो [HTML और CSS कोड ऑफ़लाइन लिखने के बारे में हमारी गाइड](https://codeclubprojects.org/en-GB/resources/webdev-working-offline/){:target="_blank"} देखें।
 
 --- /task ---
 
-In the `index.html` file, there are some pieces of content in `div` elements.
+`index.html` फ़ाइल में, `div` तत्वों(elements) में सामग्री(content) के कुछ टुकड़े हैं।
 
-The CoderDojo logo is displayed using an empty `div` with the CSS property `background-image`.
+CoderDojo लोगो(logo) को रिक्त `div` के साथ सीएसएस प्रॉपर्टी(CSS property) `background-image` का उपयोग करके प्रदर्शित किया गया है।
 
 --- task ---
 
-In the `index.html` file, create another `div` with an image of some kitchen equipment.
+`index.html` फ़ाइल में, एक और `div` कुछ रसोई उपकरणों के चित्र के साथ बनाएँ ।
 
-Add a `div` element to the bottom of your page, **inside** the `<html>` tags. Give the `div` a helpful class name, e.g. `kitchen-equipment`.
+`<html>` टैग के **अंदर** अपने पृष्ठ के नीचे एक `div` तत्व(element) जोड़े। `div` को एक सहायक क्लास नाम दें, जैसे `kitchen-equipment`।
 
 ```html
   <div class="kitchen-equipment">
@@ -34,7 +34,7 @@ Add a `div` element to the bottom of your page, **inside** the `<html>` tags. Gi
 
 --- task ---
 
-Go to the `style.css` file, and add a CSS rule-set for your new class, including the link to the image you want to display.
+`style.css` फ़ाइल पर जाएं, और अपनी नई क्लास के लिए एक CSS नियम-सेट(rule-set) जोड़ें, जिसमें उस चित्र का लिंक शामिल हो जिसे आप प्रदर्शित करना चाहते हैं।
 ```css
   .kitchen-equipment {
     background-image: url("utensils.JPG");
@@ -45,7 +45,7 @@ Go to the `style.css` file, and add a CSS rule-set for your new class, including
 
 --- task ---
 
-+ In the CSS file, add the new class name to the list of selectors for the rule-set that is already there.
++ CSS फ़ाइल में, नियम-सेट के लिए चयनकर्ताओं(selectors) की सूची में नया क्लास नाम जोड़ें जो पहले से ही वहां है।
 ```css
   .cd-logo, .kitchen-equipment {
   position: relative;
@@ -56,23 +56,23 @@ Go to the `style.css` file, and add a CSS rule-set for your new class, including
   min-height: 100%;
 }
 ```
-Now, all these property and value pairs apply to your new background image.
+अब, ये सभी प्रॉपर्टी और मूल्य(values) आपकी नई पृष्ठभूमि छवि(background image) पर लागू करें।
 
-Scroll through your web page, and you should now see the new image.
+अपने वेब पेज(पृष्ठ) पर स्क्रॉल करे, अब आपको नया चित्र दिखना चाहिए।
 
 --- /task ---
 
 --- task ---
 
-Add more `div` elements with pictures or text.
+चित्र या पाठ(text) के साथ और `div` तत्व(elements) जोड़ें।
 
-The example below shows you how to add:
-+ A list of the equipment for baking a cake
-+ A picture of the cake ingredients
+नीचे दिया गया उदाहरण आपको दिखाता है:
++ केक पकाने के लिए उपकरणों की एक सूची
++ केक सामग्री की एक तस्वीर
 
 --- hints --- --- hint ---
 
-To add a section with text, include any HTML tags you want inside a `div`. Then, add the appropriate CSS rules. The starter project already includes `<p>` and `<h3>` tags in the 'simple chocolate cake' section. The example section below uses `<ul>` and `<li>` tags. Add the class name `textSection` to your new section to apply the same CSS rules that apply to the 'simple chocolate cake' section.
+पाठ(text) के साथ एक अनुभाग जोड़ने के लिए, किसी भी HTML टैग को शामिल करें जिसे आप `div` के अंदर चाहते हैं। फिर, उपयुक्त CSS नियम जोड़ें। स्टार्टर प्रोजेक्ट(starter project) में पहले से ही 'सरल चॉकलेट केक'('simple chocolate cake') सेक्शन में `<p>` and `<h3>` टैग शामिल हैं। नीचे दिया गया उदाहरण, `<ul>` और `<li>` टैग का उपयोग करता है। अपने नए अनुभाग(section) में समान CSS नियम लागू करने के लिए, क्लास का नाम `textSection` जोड़ें, जो 'सरल चॉकलेट केक' अनुभाग पर लागू हैं।
 
 ```html
 <div class="textSection">
@@ -91,7 +91,7 @@ To add a section with text, include any HTML tags you want inside a `div`. Then,
 
 --- /hint --- --- hint ---
 
-To add a section with an image, create a `div` element and give it a class name. Then use the CSS property `background-image` to add an image to the new`div` element.
+चित्र के साथ अनुभाग(section) जोड़ने के लिए एक `div` तत्व(element) बनाएं और इसे एक क्लास का नाम दें। फिर नए `div` तत्व में जोड़ने के लिए CSS संपत्ति(property) `background-image` का उपयोग करें।
 
 ```html
   <div class="cake-ingredients">
@@ -101,7 +101,7 @@ To add a section with an image, create a `div` element and give it a class name.
 
 --- /hint --- --- hint ---
 
-Here is the CSS code to assign a background image to your new `div`:
+आपके नए `div` में परिप्रेक्ष्य(background) चित्र असाइन करने के लिए यहाँ CSS कोड है:
 
 ```css
   .cake-ingredients {
@@ -109,7 +109,7 @@ Here is the CSS code to assign a background image to your new `div`:
   }
 ```
 
-Add your new `div` element's class name to the list of selectors for the following CSS rule.
+आपके नए `div` तत्व(element) का नाम निम्नलिखित CSS नियम के लिए चयनकर्ताओं(selectors) की सूची में जोड़ें।
 
 ```css
   .cd-logo, .kitchen-equipment, .cake-ingredients {
