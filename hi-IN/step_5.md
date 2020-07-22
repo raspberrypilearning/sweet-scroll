@@ -1,22 +1,22 @@
-## Challenge: add more sections
+## चुनौती: अधिक अनुभाग(sections) जोड़ें
 
 --- challenge ---
 
-Add more sections to your recipe using parallax scrolling.
+लंबन स्क्रॉलिंग(Parallax scrolling) का उपयोग करके अपनी विधि में अधिक अनुभाग जोड़ें।
 
 --- hints --- --- hint ---
 
-Some ideas for what you could add are sections on ingredients, preparation, or cooking instructions.
+आप जो कुछ जोड़ सकते हैं, सामग्री, तैयारी, या खाना पकाने के निर्देश पर अनुभाग, उसके लिए यहाँ कुछ विचार हैं।
 
 --- /hint --- --- hint ---
 
-Remember that you already have sections on your web page that are using parallax scrolling, so think about how many new CSS rule-sets you need.
+याद रखें कि आपके पास पहले से ही अपने वेब पेज पर अनुभाग हैं जो लंबन स्क्रॉलिंग का उपयोग कर रहे हैं, इसलिए सोचें कि आपको कितने नए CSS नियम-सेट की आवश्यकता है।
 
 --- /hint --- --- hint ---
 
-You can re-use CSS rule-sets for multiple selectors. Add your new sections to the selector list of the rule-set containing `background-attachment: fixed;`.
+आप कई चयनकर्ताओं(selectors) के लिए CSS नियम-सेट का फिर से उपयोग कर सकते हैं। नियम-सेट के चयनकर्ता(selectors) सूची में अपने नए अनुभाग जोड़ें, जिसमें `background-attachment: fixed;` शामिल है।
 
-Then, add new rule-sets to include a background image in your new sections.
+फिर, अपने नए अनुभागों में परिप्रेक्ष्य चित्र को शामिल करने के लिए नए नियम-सेट जोड़ें।
 
 ```css
 .cd-logo, .kitchen-equipment, .cake-ingredients {
