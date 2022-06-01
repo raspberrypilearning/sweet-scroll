@@ -1,7 +1,8 @@
 ---
 title: स्वीट स्क्रोल (Sweet scroll)
 hero_image: images/banner.png
-description: Parallax Scroll(लंबन स्क्रॉल) तकनीक का उपयोग करके एक रेसिपी वेब पृष्ठ(पेज) बनाना सीखें!
+description: Parallax Scroll(लंबन स्क्रॉल) तकनीक का उपयोग करके एक रेसिपी वेब पृष्ठ(पेज)
+  बनाना सीखें!
 duration: 3
 technologies: html-css-javascript
 software: html-css-javascript
@@ -9,14 +10,18 @@ version: 4.0.1
 listed: true
 copyedit: true
 ingredient: false
-last_tested: "2019-05-03"
+last_tested: '2019-05-03'
 steps:
-  - title: परिचय
-  - title: शुरू करें
-  - title: Parallax scroll(लंबन स्क्रॉल) जोड़ें
-  - title: शीर्षक(Caption) जोड़ें
-  - title: "चुनौती: अधिक अनुभाग(sections) जोड़ें"
-    challenge: true
-  - title: अपने वेब पृष्ठ(पेज) को मोबाइल उपकरणों पर शानदार दिखाए
-  - title: "चुनौती: रसोई की किताब बनाएं"
-    challenge: true
+- title: परिचय
+- title: शुरू करें
+- title: Parallax scroll(लंबन स्क्रॉल) जोड़ें
+  completion:
+  - engaged
+- title: शीर्षक(Caption) जोड़ें
+- title: 'चुनौती: अधिक अनुभाग(sections) जोड़ें'
+  challenge: true
+- title: अपने वेब पृष्ठ(पेज) को मोबाइल उपकरणों पर शानदार दिखाए
+  completion:
+  - internal
+- title: 'चुनौती: रसोई की किताब बनाएं'
+  challenge: true
