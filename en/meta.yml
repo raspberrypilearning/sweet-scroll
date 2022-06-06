@@ -12,13 +12,15 @@ ingredient: false
 last_tested: '2019-05-03'
 steps:
 - title: Introduction
-  completion: engaged
 - title: Get started
 - title: Add parallax scroll
+  completion:
+  - engaged
 - title: Add captions
 - title: 'Challenge: add more sections'
   challenge: true
-  completion: internal
 - title: Make your web page look great on mobile devices
+  completion:
+  - internal
 - title: 'Challenge: create a cookbook'
   challenge: true

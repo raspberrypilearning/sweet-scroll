@@ -13,13 +13,15 @@ ingredient: false
 last_tested: '2019-05-03'
 steps:
 - title: परिचय
-  completion: engaged
 - title: शुरू करें
 - title: Parallax scroll(लंबन स्क्रॉल) जोड़ें
+  completion:
+  - engaged
 - title: शीर्षक(Caption) जोड़ें
 - title: 'चुनौती: अधिक अनुभाग(sections) जोड़ें'
   challenge: true
-  completion: internal
 - title: अपने वेब पृष्ठ(पेज) को मोबाइल उपकरणों पर शानदार दिखाए
+  completion:
+  - internal
 - title: 'चुनौती: रसोई की किताब बनाएं'
   challenge: true
